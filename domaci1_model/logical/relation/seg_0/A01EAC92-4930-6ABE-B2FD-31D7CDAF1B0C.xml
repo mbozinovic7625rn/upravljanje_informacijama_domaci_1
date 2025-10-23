@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StudentStatusi" directorySegmentName="seg_0" id="A01EAC92-4930-6ABE-B2FD-31D7CDAF1B0C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:46:42 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>3A1666EC-AB09-8C92-3E30-102D31E38302</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>536175B5-65BE-1157-CE8B-DEE1158F0C02</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05B8BBD0-817E-0975-8A05-0E53D330E134</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

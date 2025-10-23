@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IspitProfesori" directorySegmentName="seg_0" id="8FB97BE5-0FE6-3BC4-2E2C-5A10FF111B15">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:04:11 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4D0CF9D6-3DEC-1D43-0284-33836A4BEDD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4963AF95-0CCC-C096-9543-1F61A042CE03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

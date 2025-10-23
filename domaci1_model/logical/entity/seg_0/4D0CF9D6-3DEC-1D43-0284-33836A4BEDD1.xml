@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D0CF9D6-3DEC-1D43-0284-33836A4BEDD1" name="Ispit">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:57:30 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ispit_id" id="C110FB81-563B-D390-CF67-F843C2379A1D">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:57:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predmet_id" id="970A5131-0724-BB65-D5B3-F9D177832758">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:57:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_id" id="7428F437-366B-A923-9049-02AB7B09EDC1">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:57:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesor_id" id="5C8D9566-50B6-65C4-1582-A6C7DC65B239">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:57:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="41F2374C-DAAE-53A7-71BB-EC2BC9E736A4">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:58:24 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_id1" id="0FEACE4A-4AE1-61F7-2C7F-2D11CC391EEF">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:59:25 UTC</createdTime>
+<generatorID>21E41179-5BF5-E3AD-5050-D837FEE2A5E1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>CF0021A5-CDCD-B24C-5588-7DB5DD81EE34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predmet_id1" id="F69E3C2C-95AC-7A65-F7AA-27C5959DDA9B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:01:28 UTC</createdTime>
+<generatorID>D6A8C6E1-78D0-53D0-E29D-8B75F5080FEE</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>ED7FDD09-C78A-6E1E-9923-F92152F255CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra" id="6C4256E4-FFB6-18AE-B146-96AFA40C40A7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:01:28 UTC</createdTime>
+<generatorID>D6A8C6E1-78D0-53D0-E29D-8B75F5080FEE</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>013F4BA8-A9FB-C5EE-05A2-1F0AAA417CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

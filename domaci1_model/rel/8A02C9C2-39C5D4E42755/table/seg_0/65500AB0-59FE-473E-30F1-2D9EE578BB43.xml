@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65500AB0-59FE-473E-30F1-2D9EE578BB43" name="Predmet">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>B6295DF0-4B14-44B1-3A92-E3AD6CFAF1F0</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="predmet_id" id="3A4C58CC-D908-46E5-4DF8-8B56E659D6C6">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>ED7FDD09-C78A-6E1E-9923-F92152F255CB</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sifra" id="1AEC2AE9-F81B-8313-42FA-7FE1B10FE063">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>013F4BA8-A9FB-C5EE-05A2-1F0AAA417CDA</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="B863E0CE-5297-42B5-2282-B88C5EA5F6D1">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>306AA729-E710-EB4E-FA92-CFC2F3C94892</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espb" id="0058E04A-BA3E-D888-A9EE-F63A025BE9BD">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>6FE34B3E-A7AD-58C1-4FEF-4E1F24E0C393</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="B2F65FFC-55FD-F12B-8174-61CA0B869914">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>94927940-C15D-5FA9-B84E-4C9A62E1E716</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="smer_id" id="45A7439D-9E14-BD9C-7415-D909F7403C00">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>AF0C5F3B-A898-52A2-C03C-D0E25619F5F0</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9147066E-8B24-FE4D-4CBD-82530F339FB0" name="Predmet_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>215917BB-EDB3-4293-5020-84DFCAA4AFD6</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4C58CC-D908-46E5-4DF8-8B56E659D6C6"/>
+<colUsage columnID="1AEC2AE9-F81B-8313-42FA-7FE1B10FE063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

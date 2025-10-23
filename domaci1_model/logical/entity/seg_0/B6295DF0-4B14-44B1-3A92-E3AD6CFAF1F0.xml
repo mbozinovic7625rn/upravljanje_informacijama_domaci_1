@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6295DF0-4B14-44B1-3A92-E3AD6CFAF1F0" name="Predmet">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:29 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="predmet_id" id="ED7FDD09-C78A-6E1E-9923-F92152F255CB">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra" id="013F4BA8-A9FB-C5EE-05A2-1F0AAA417CDA">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="306AA729-E710-EB4E-FA92-CFC2F3C94892">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="espb" id="6FE34B3E-A7AD-58C1-4FEF-4E1F24E0C393">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="94927940-C15D-5FA9-B84E-4C9A62E1E716">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:42 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="smer_id" id="AF0C5F3B-A898-52A2-C03C-D0E25619F5F0">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:28:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="215917BB-EDB3-4293-5020-84DFCAA4AFD6" name="Predmet PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:27:38 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED7FDD09-C78A-6E1E-9923-F92152F255CB</attributeRef>
+<attributeRef>013F4BA8-A9FB-C5EE-05A2-1F0AAA417CDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

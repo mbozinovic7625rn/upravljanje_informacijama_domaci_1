@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAB34B7A-AFC9-7091-54D3-A74C1261C14D" name="Uplata">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:26 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="uplata_id" id="03644EEC-91A7-75D9-80AC-5B14B4CCCD28">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indeks" id="F99D2275-33FF-9DE1-6991-2B7915EE107A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="suma" id="D516DFCF-62AC-60AF-E264-9AB3B881CDB0">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:34 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_uplate" id="E67DB6C3-1CB4-94ED-4759-E22BDE53DCAD">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:35 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="B9EB78A4-4E4C-C9D5-1716-B01008BAC77A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:50:12 UTC</createdTime>
+<generatorID>A09FB8C3-B48C-9299-5ADC-351FDF710A89</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>812E1F84-EABD-B09A-5957-39AF8533C1DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indeks1" id="26DCEFD9-CD41-FB93-2269-2936AC0DDDC4">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:50:12 UTC</createdTime>
+<generatorID>A09FB8C3-B48C-9299-5ADC-351FDF710A89</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>FB14BAEA-21B3-E9DB-5278-981BDFB1451E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmbg" id="61C41F25-BCAE-54E9-7CED-E93AC36CA67B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:50:12 UTC</createdTime>
+<generatorID>A09FB8C3-B48C-9299-5ADC-351FDF710A89</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<referedAttribute>A955A274-16E4-3949-C0F9-D500E37C601E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC591BDF-2A6E-CD83-36B3-C72DD7533B79" name="Uplate PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:48:42 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F99D2275-33FF-9DE1-6991-2B7915EE107A</attributeRef>
+<attributeRef>03644EEC-91A7-75D9-80AC-5B14B4CCCD28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: mbozinovic7625rn
+      POSTGRES_PASSWORD: fakultet2025
+      POSTGRES_DB: fakultetDB
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: mbozinovic7625rn@raf.rs
+      PGADMIN_DEFAULT_PASSWORD: fakultet2025
+    ports:
+      - "8080:80"
+
+volumes:
+  postgres_data:

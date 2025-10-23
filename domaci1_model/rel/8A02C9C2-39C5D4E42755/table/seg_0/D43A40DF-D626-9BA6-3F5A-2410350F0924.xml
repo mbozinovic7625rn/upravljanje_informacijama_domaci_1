@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D43A40DF-D626-9BA6-3F5A-2410350F0924" name="IspitniRok">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>830681BD-3359-7FC1-5989-7B980BF8033D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rok_id" id="E4A479F3-7F3A-A55C-3900-5DC124425288">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>CF0021A5-CDCD-B24C-5588-7DB5DD81EE34</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="semestar" id="96042F76-1717-0F0E-85E5-C90130672951">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>3F50F3C2-789C-4B7B-11FB-B59F945A4A5D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak" id="B6D4662E-2C06-B98C-1235-3EAE6875FBC2">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>57DBC099-6358-668A-6E86-76215024639A</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="1576758D-5CD3-FD5E-881C-B27DC0C35786">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>FA5D11F5-7291-84CE-B222-35A8BB24FD40</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina" id="5ED18499-185C-3AEC-6323-20BC596D9F49">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>F784B6A9-C024-D6C6-34FB-96D12BFF877D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F26A8CA6-ED4A-D610-BE42-0C3676C8B5DB" name="IspitniRok_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>FE8D87CD-561C-DD6E-434F-F6818F2B3EF4</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4A479F3-7F3A-A55C-3900-5DC124425288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

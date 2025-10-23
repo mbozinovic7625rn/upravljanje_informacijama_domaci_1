@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StudentUpisaniPredmeti" directorySegmentName="seg_0" id="A842EE62-43A9-4F5D-634B-8DB6075CD54B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:53:14 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>3A1666EC-AB09-8C92-3E30-102D31E38302</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>536175B5-65BE-1157-CE8B-DEE1158F0C02</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E96EE74-F6E9-12F6-156E-3B9F53F5C430</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

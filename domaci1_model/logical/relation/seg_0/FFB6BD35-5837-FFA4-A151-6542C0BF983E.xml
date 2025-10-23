@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BibliotekaPozajmice" directorySegmentName="seg_0" id="FFB6BD35-5837-FFA4-A151-6542C0BF983E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:33 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>6F59ADC1-289D-C819-5BE0-A6248C1DF983</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE345815-2DB6-3D6F-C2BE-800F0757C6FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DBEF84FE-7E5B-C23D-8ECF-A26D83775028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

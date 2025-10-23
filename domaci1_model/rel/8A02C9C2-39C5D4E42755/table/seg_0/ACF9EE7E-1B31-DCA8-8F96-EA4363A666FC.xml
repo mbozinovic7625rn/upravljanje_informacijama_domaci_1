@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF9EE7E-1B31-DCA8-8F96-EA4363A666FC" name="Ispit">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>4D0CF9D6-3DEC-1D43-0284-33836A4BEDD1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ispit_id" id="6D365742-3D9F-F342-59C0-4A43C563EC7F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>C110FB81-563B-D390-CF67-F843C2379A1D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_id" id="8AB77A68-76E7-4EDE-BE56-3C044DE426D2">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>970A5131-0724-BB65-D5B3-F9D177832758</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_id" id="7F4F78D5-7219-0506-BFAC-AE1C3918BEE6">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>7428F437-366B-A923-9049-02AB7B09EDC1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesor_id" id="4AF66007-AAE9-341C-F916-5BE9D1348302">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>5C8D9566-50B6-65C4-1582-A6C7DC65B239</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="7B69A356-1477-FE3E-C956-05682C3CAC0F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>41F2374C-DAAE-53A7-71BB-EC2BC9E736A4</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IspitniRok_rok_id" id="22149469-747F-4E8F-49A2-F329F437A998">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>0FEACE4A-4AE1-61F7-2C7F-2D11CC391EEF</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79555E8F-29F2-14EE-0514-FCAF9830BD77" referredColumn="E4A479F3-7F3A-A55C-3900-5DC124425288"/>
+</associations>
+</Column>
+<Column name="Predmet_predmet_id" id="136A3558-D1D7-6E6E-DA93-7E76E0231FA7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>F69E3C2C-95AC-7A65-F7AA-27C5959DDA9B</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0AFA0F2-C2A3-5341-909A-1A0420A9E772" referredColumn="3A4C58CC-D908-46E5-4DF8-8B56E659D6C6"/>
+</associations>
+</Column>
+<Column name="Predmet_sifra" id="052D6A30-6AED-AD31-DB2E-7EA14F0444AF">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>6C4256E4-FFB6-18AE-B146-96AFA40C40A7</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0AFA0F2-C2A3-5341-909A-1A0420A9E772" referredColumn="1AEC2AE9-F81B-8313-42FA-7FE1B10FE063"/>
+</associations>
+</Column>
+<Column name="Ispit_ID1" id="82CDEC3B-C693-2ABF-01BC-D7902C9C26BA">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0E2D4D9-9BC9-B631-714A-D1A772F602D1" name="Ispit_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="82CDEC3B-C693-2ABF-01BC-D7902C9C26BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C389386-6D6B-D57E-E242-DDF2C9A2A205" name="Ispit_Predmet_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>D6A8C6E1-78D0-53D0-E29D-8B75F5080FEE</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="136A3558-D1D7-6E6E-DA93-7E76E0231FA7"/>
+<colUsage columnID="052D6A30-6AED-AD31-DB2E-7EA14F0444AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="756D7B6B-B6DB-64B7-A7C7-08240CF38572" name="Ispit_IspitniRok_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:14:52 UTC</createdTime>
+<generatorID>21E41179-5BF5-E3AD-5050-D837FEE2A5E1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22149469-747F-4E8F-49A2-F329F437A998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

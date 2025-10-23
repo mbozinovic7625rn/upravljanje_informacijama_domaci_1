@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PredmetIspiti" directorySegmentName="seg_0" id="D6A8C6E1-78D0-53D0-E29D-8B75F5080FEE">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:01:28 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>215917BB-EDB3-4293-5020-84DFCAA4AFD6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6295DF0-4B14-44B1-3A92-E3AD6CFAF1F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D0CF9D6-3DEC-1D43-0284-33836A4BEDD1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

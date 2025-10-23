@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PrijavaStatusi" directorySegmentName="seg_0" id="BA868504-8437-118E-4371-E41FA8B3C600">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:08:21 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>F3D98471-ED7A-24AD-018B-F9F94648B6CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4CEC02BF-E092-E790-C2B4-BE8B38FFEF8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C9F9BBF-47DE-A940-6E7A-D017E41DB0D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

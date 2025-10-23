@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SmerNivoStudija" directorySegmentName="seg_0" id="BDAC6038-8932-827D-4B03-3F3FE5EF28E6">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 11:39:50 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<sourcePk>A8FF7972-CA83-ABBC-E6F7-2FC1F720E9E4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8A5D694-3DAB-E288-4627-E75AB0AAC068</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8354F5D6-6BD7-05DF-FFA4-AE347906531E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IspitPrijave" directorySegmentName="seg_0" id="DFE2218F-CB17-87D5-98A0-89813F445BEC">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 12:05:51 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4D0CF9D6-3DEC-1D43-0284-33836A4BEDD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CEC02BF-E092-E790-C2B4-BE8B38FFEF8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
