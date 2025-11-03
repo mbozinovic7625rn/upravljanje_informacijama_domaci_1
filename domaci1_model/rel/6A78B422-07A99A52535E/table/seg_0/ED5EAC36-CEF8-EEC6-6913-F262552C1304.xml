@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED5EAC36-CEF8-EEC6-6913-F262552C1304" name="NivoStudija">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>8354F5D6-6BD7-05DF-FFA4-AE347906531E</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nivo_id" id="162EDBF3-C166-97C9-9514-F238787EA44A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>6C24254A-AC0A-D1F1-8BF9-8D1204DDFEDF</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="12C0B7CB-8E79-99A0-3B1A-2471C2FE567E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>804963F3-6362-DC44-3207-E9E448928C86</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="505F6663-29F1-E582-9339-4506C1AE1740">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>1EC20282-1A8B-F751-F32A-4A38DD1DE78F</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Smer_naziv" id="42446A87-193A-F59A-B1C7-CE033AC27FC9">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>A74FA114-41DF-B5B5-8984-19FD647A755B</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1D23E0-5F6D-08AF-BC5D-40F03AACA721" referredColumn="478F3A07-0BFE-86D6-09BE-81451F579E6C"/>
+</associations>
+</Column>
+<Column name="Smer_smer_id" id="AE48E533-2A33-CD29-3987-74AFF171880B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>B4B7D769-7DDC-8772-6EA9-B038FED43294</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1D23E0-5F6D-08AF-BC5D-40F03AACA721" referredColumn="95DC7BFD-A7E4-2AD2-2CC5-BE2CA5DFF368"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="541D5B10-9254-3FF2-B4ED-A629CFB6F3D3" name="NivoStudija_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>AABCC2E1-E599-5B9D-0F77-9CB9448167EF</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="162EDBF3-C166-97C9-9514-F238787EA44A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="306057C4-7A20-C26D-70B1-786BDD218648" name="NivoStudija__IDX">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BDAC6038-8932-827D-4B03-3F3FE5EF28E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42446A87-193A-F59A-B1C7-CE033AC27FC9"/>
+<colUsage columnID="AE48E533-2A33-CD29-3987-74AFF171880B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F38795A-BC7C-B82A-52A9-DC0E30E20B53" name="NivoStudija_Smer_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>BDAC6038-8932-827D-4B03-3F3FE5EF28E6</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42446A87-193A-F59A-B1C7-CE033AC27FC9"/>
+<colUsage columnID="AE48E533-2A33-CD29-3987-74AFF171880B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

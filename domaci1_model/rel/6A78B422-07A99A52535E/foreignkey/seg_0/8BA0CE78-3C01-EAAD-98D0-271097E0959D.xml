@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BA0CE78-3C01-EAAD-98D0-271097E0959D" containerWithKeyObject="C4A7D5B8-D50A-2A2B-BCC2-5AF4E3DF7399" localFKIndex="C7BF9B58-7BC6-7D5B-B33B-45F7C3747AB8" name="StatusPrijave_PrijavaIspita_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:46:36 UTC</createdTime>
+<generatorID>BA868504-8437-118E-4371-E41FA8B3C600</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>PrijavaIspita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74BDFDD6-D79C-331B-7477-326504CA037E</referredTableID>
+<keyObject>83ACA53E-31B1-1D7F-4B86-E68DC509654F</keyObject>
+<referredKeyID>83ACA53E-31B1-1D7F-4B86-E68DC509654F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>prijava_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

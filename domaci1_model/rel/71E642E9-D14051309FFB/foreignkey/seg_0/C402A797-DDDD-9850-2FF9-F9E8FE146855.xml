@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C402A797-DDDD-9850-2FF9-F9E8FE146855" containerWithKeyObject="A4EC3DA8-31E9-2C4D-22F6-BB1F02907C39" localFKIndex="2C10AE0E-EF72-69C0-604B-74994E6DDE55" name="Ispit_IspitniRok_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>21E41179-5BF5-E3AD-5050-D837FEE2A5E1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>IspitniRok</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB6EEC31-CE27-D30B-795C-5EA6797543EE</referredTableID>
+<keyObject>04D2E230-6B60-813B-C4CF-4F40540B821C</keyObject>
+<referredKeyID>04D2E230-6B60-813B-C4CF-4F40540B821C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rok_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

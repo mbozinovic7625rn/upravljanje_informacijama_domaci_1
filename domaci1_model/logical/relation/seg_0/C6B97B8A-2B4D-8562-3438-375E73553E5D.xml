@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Titula_Profesori" directorySegmentName="seg_0" id="C6B97B8A-2B4D-8562-3438-375E73553E5D">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:28:25 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<sourcePk>DD21235A-5269-3569-738B-2F6F6674AE24</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C396ED93-DF36-E22B-149A-EB48135636DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8819BBF-5FAE-1F47-B165-BA5476BF84D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

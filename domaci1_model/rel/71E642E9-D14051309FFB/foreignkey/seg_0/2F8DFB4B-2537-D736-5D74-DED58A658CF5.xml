@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F8DFB4B-2537-D736-5D74-DED58A658CF5" containerWithKeyObject="247595E5-BF65-B76A-A26E-22DBBCF9E433" localFKIndex="086CD682-FAE4-E0FA-3374-470ED1434CAF" name="ProfesorPredmet_Predmet_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>882D3B26-C9E5-B69B-F5E5-FB20351B0630</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>Predmet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F64251EA-20FD-B94F-DF93-FCC8314C884A</referredTableID>
+<keyObject>AB0F48F2-8780-1A09-165F-532221FD2709</keyObject>
+<referredKeyID>AB0F48F2-8780-1A09-165F-532221FD2709</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>predmet_id,sifra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -4,7 +4,7 @@
 <createdTime>2025-10-23 12:07:36 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-23 12:07:43 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-23 12:07:43 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,26 +45,12 @@
 <createdTime>2025-10-23 12:07:43 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="prijava_id" id="406F4F38-9512-A0BE-F12F-6D4DB52B2AB2">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-23 12:08:21 UTC</createdTime>
-<generatorID>BA868504-8437-118E-4371-E41FA8B3C600</generatorID>
-<ownerDesignName>domaci1_model</ownerDesignName>
-<engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
-</engineerTo>
-<referedAttribute>3E5100F8-068D-B069-3D10-B104B0342FD2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -74,7 +60,7 @@
 <createdTime>2025-10-23 12:07:50 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

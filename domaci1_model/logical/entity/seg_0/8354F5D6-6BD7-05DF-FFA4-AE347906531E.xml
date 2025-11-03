@@ -4,7 +4,7 @@
 <createdTime>2025-10-23 11:38:31 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-23 11:38:35 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-23 11:38:35 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2025-10-23 11:38:35 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,34 +54,6 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="naziv1" id="A74FA114-41DF-B5B5-8984-19FD647A755B">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-23 11:39:50 UTC</createdTime>
-<generatorID>BDAC6038-8932-827D-4B03-3F3FE5EF28E6</generatorID>
-<ownerDesignName>domaci1_model</ownerDesignName>
-<engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
-</engineerTo>
-<referedAttribute>CB570CBA-2EED-830C-BBAC-82E750C277A0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="smer_id" id="B4B7D769-7DDC-8772-6EA9-B038FED43294">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-23 11:39:50 UTC</createdTime>
-<generatorID>BDAC6038-8932-827D-4B03-3F3FE5EF28E6</generatorID>
-<ownerDesignName>domaci1_model</ownerDesignName>
-<engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
-</engineerTo>
-<referedAttribute>FDD0125F-850D-8E08-37C2-6421ACD3523B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AABCC2E1-E599-5B9D-0F77-9CB9448167EF" name="NivoStudija PK">
@@ -89,7 +61,7 @@
 <createdTime>2025-10-23 11:39:14 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

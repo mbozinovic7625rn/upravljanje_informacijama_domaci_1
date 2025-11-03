@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="247595E5-BF65-B76A-A26E-22DBBCF9E433" name="ProfesorPredmet">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>81C73564-B1C7-72AC-0A60-EB8EBA1C6BED</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="profesor_predmet_id" id="A16D0590-B6AD-0832-73EE-680C54455363">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>B5EA5163-1602-F923-9082-85930273B7AB</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_id" id="80672EAA-4391-A35B-4822-55AFCD98FCC3">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>7117B49C-8C7E-D1E2-CECE-D8E8003791B4</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesor_id" id="D4F0E44C-001C-977B-0D27-295FF645BD00">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>489C2AF9-3CC0-24DB-BA94-D63557E7124D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Predmet_predmet_id" id="FBC1E2EB-BE1D-1DBC-221C-6B3849314B3E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>BE5F06F8-9541-C905-5F8D-440FC3AECEAE</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F8DFB4B-2537-D736-5D74-DED58A658CF5" referredColumn="B28943ED-62E7-4696-1AB0-14D10BC8EF6F"/>
+</associations>
+</Column>
+<Column name="Predmet_sifra" id="CEC6D360-4E1D-8C0C-4FC7-BAD0A66929BA">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>2E1B593A-B512-A1A7-8D26-E9786F9DDAE9</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F8DFB4B-2537-D736-5D74-DED58A658CF5" referredColumn="25D6184A-8481-6572-660C-5F9BD53E8E0A"/>
+</associations>
+</Column>
+<Column name="Profesor_profesor_id" id="9D14B017-2631-32EB-78FF-52EF572AAE18">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>A288A893-00DB-59C5-3398-BEEF30959210</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BCBA3BB-C4D9-A41E-9CDD-A07D45AD1977" referredColumn="F4C7197C-62FF-54D8-AE31-16F86346987C"/>
+</associations>
+</Column>
+<Column name="Profesor_email" id="D8D43F92-3C35-5247-F16B-9416C1ECE910">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>C172BF38-DFEA-7FC8-DA4D-32B349832CAE</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BCBA3BB-C4D9-A41E-9CDD-A07D45AD1977" referredColumn="5A2B107F-92B4-D36A-6AC2-2419BA61B5A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8853384E-CF05-360F-FA49-70ED8E226BFB" name="ProfesorPredmet_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>F4205A9C-AABF-A4D9-BC22-3CF60094A94F</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16D0590-B6AD-0832-73EE-680C54455363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="086CD682-FAE4-E0FA-3374-470ED1434CAF" name="ProfesorPredmet_Predmet_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>882D3B26-C9E5-B69B-F5E5-FB20351B0630</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBC1E2EB-BE1D-1DBC-221C-6B3849314B3E"/>
+<colUsage columnID="CEC6D360-4E1D-8C0C-4FC7-BAD0A66929BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5250191B-9A7E-E5C5-DC71-651A6D3DDEF6" name="ProfesorPredmet_Profesor_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>C46B6E48-14DC-7437-292B-C2E15F0F6284</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D14B017-2631-32EB-78FF-52EF572AAE18"/>
+<colUsage columnID="D8D43F92-3C35-5247-F16B-9416C1ECE910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

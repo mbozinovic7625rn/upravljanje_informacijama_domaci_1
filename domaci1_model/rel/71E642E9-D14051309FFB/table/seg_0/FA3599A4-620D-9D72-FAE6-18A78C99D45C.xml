@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA3599A4-620D-9D72-FAE6-18A78C99D45C" name="UpisanPredmet">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>9E96EE74-F6E9-12F6-156E-3B9F53F5C430</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="upisan_predmet_id" id="AEE11C2F-B8BB-BEF7-C468-4121A4C84F5E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>B77BB938-B3C1-791E-F6A7-7E444C7F822E</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indeks" id="6724F4C9-D1BD-A269-FAE9-6D272A1BE40B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>8B9CADB8-5772-FC51-AA48-A94F9FB6BAD5</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_id" id="9A026F35-7F72-3E02-CE09-5B7FEC8F7E29">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>4400A512-879D-7288-B80C-560C9892312A</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Predmet_predmet_id" id="24D0A7CE-DB72-2206-DBA0-34485CA7A263">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>D7A07B49-4319-590F-F487-66EBCD949C6C</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="509B01AF-EA63-512A-CDC9-8CC8EC78AEB3" referredColumn="B28943ED-62E7-4696-1AB0-14D10BC8EF6F"/>
+</associations>
+</Column>
+<Column name="Predmet_sifra" id="F17AB3F9-71AD-B30F-5D32-E36511D3FA40">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>77F02123-031E-43F1-27DE-4BD6C4640B87</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="509B01AF-EA63-512A-CDC9-8CC8EC78AEB3" referredColumn="25D6184A-8481-6572-660C-5F9BD53E8E0A"/>
+</associations>
+</Column>
+<Column name="Student_student_id" id="50587AE7-7AD8-B9E9-46A4-1400B2D2029B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>45206B6A-70B0-6F42-61A9-D12F78164359</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533ADBDC-47BC-CD97-462B-CB763B838D49" referredColumn="CDB60877-881C-D4B3-244E-0AF8D427E0AF"/>
+</associations>
+</Column>
+<Column name="Student_indeks" id="EC2952AD-4C15-B174-7075-81D7CF1C6680">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>728AECC0-B297-B259-A1BD-A59A1385A636</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533ADBDC-47BC-CD97-462B-CB763B838D49" referredColumn="1A0A5DB3-41E3-B59F-9414-FE35EE3A2A3E"/>
+</associations>
+</Column>
+<Column name="Student_jmbg" id="5BC49FCC-B36A-5085-DDC7-755EE383B54C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>EB9CA257-55C7-C440-16B3-D5239971FFC5</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533ADBDC-47BC-CD97-462B-CB763B838D49" referredColumn="261A9F3E-D1FB-438C-642F-4AE3128FF676"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11E3A0B7-D44F-AD39-546B-080A8428D24A" name="UpisanPredmet_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>2D9ED091-0CEB-A39F-EC00-4FDFF51A8D62</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE11C2F-B8BB-BEF7-C468-4121A4C84F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DA9FD4A-24FF-D924-82B3-79B50256FF17" name="UpisanPredmet_Predmet_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>1AC4E95C-439A-F9D2-536E-FDC5073DBC91</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24D0A7CE-DB72-2206-DBA0-34485CA7A263"/>
+<colUsage columnID="F17AB3F9-71AD-B30F-5D32-E36511D3FA40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C57DC9EB-E41D-AD76-0CFA-85F3734A35AC" name="UpisanPredmet_Student_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>A842EE62-43A9-4F5D-634B-8DB6075CD54B</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50587AE7-7AD8-B9E9-46A4-1400B2D2029B"/>
+<colUsage columnID="EC2952AD-4C15-B174-7075-81D7CF1C6680"/>
+<colUsage columnID="5BC49FCC-B36A-5085-DDC7-755EE383B54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

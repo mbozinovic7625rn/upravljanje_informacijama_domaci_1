@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="533ADBDC-47BC-CD97-462B-CB763B838D49" containerWithKeyObject="FA3599A4-620D-9D72-FAE6-18A78C99D45C" localFKIndex="C57DC9EB-E41D-AD76-0CFA-85F3734A35AC" name="UpisanPredmet_Student_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>A842EE62-43A9-4F5D-634B-8DB6075CD54B</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>Student</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>953798C3-23C1-F5E8-58DB-BF1CEB0525CF</referredTableID>
+<keyObject>D82597EB-7F01-0EFE-550E-2864FA356BB0</keyObject>
+<referredKeyID>D82597EB-7F01-0EFE-550E-2864FA356BB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>student_id,indeks,jmbg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

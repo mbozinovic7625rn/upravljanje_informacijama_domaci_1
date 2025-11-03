@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA9668F-8B22-C2E2-584B-1DBDBAAD09CC" name="SmeroviPredmeti">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Smer_naziv" id="4806C57C-7792-7F6A-E1E1-0B4EC7624D22">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B42D2D-297D-121C-7AE0-911D5ADCE8B8" referredColumn="26596687-7545-0A8F-5FCE-CE90EF55E8F9"/>
+</associations>
+</Column>
+<Column name="Smer_smer_id" id="B8768217-C7A6-4D8D-5169-B9F7B3ED81EF">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B42D2D-297D-121C-7AE0-911D5ADCE8B8" referredColumn="E926D93B-E037-2F4F-0B05-E715BBCD97A3"/>
+</associations>
+</Column>
+<Column name="Predmet_predmet_id" id="7CD241A3-01A8-0F2A-6E4D-0B5E905D4BE7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF07B22A-6444-E6E1-C495-38A7CC87204C" referredColumn="B28943ED-62E7-4696-1AB0-14D10BC8EF6F"/>
+</associations>
+</Column>
+<Column name="Predmet_sifra" id="92DBCC5D-EA5D-A73C-3083-D5C6B58F786F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF07B22A-6444-E6E1-C495-38A7CC87204C" referredColumn="25D6184A-8481-6572-660C-5F9BD53E8E0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35B11FF8-777B-8356-2030-D7179D23ABB1" name="SmeroviPredmeti_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4806C57C-7792-7F6A-E1E1-0B4EC7624D22"/>
+<colUsage columnID="B8768217-C7A6-4D8D-5169-B9F7B3ED81EF"/>
+<colUsage columnID="7CD241A3-01A8-0F2A-6E4D-0B5E905D4BE7"/>
+<colUsage columnID="92DBCC5D-EA5D-A73C-3083-D5C6B58F786F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81051199-1EA5-D37D-F098-2CE38CDA06CF" name="SmeroviPredmeti_Smer_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>99CAC23D-A52D-D221-15D9-5C2567EB5679</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4806C57C-7792-7F6A-E1E1-0B4EC7624D22"/>
+<colUsage columnID="B8768217-C7A6-4D8D-5169-B9F7B3ED81EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11DC0ED0-00EF-5D7F-C3DD-412BAD32D732" name="SmeroviPredmeti_Predmet_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>99CAC23D-A52D-D221-15D9-5C2567EB5679</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD241A3-01A8-0F2A-6E4D-0B5E905D4BE7"/>
+<colUsage columnID="92DBCC5D-EA5D-A73C-3083-D5C6B58F786F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

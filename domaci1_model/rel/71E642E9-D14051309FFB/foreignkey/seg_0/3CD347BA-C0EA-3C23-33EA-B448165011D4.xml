@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CD347BA-C0EA-3C23-33EA-B448165011D4" containerWithKeyObject="4C413E01-68AA-1804-DF56-CE31B87DE5CC" localFKIndex="A87CF734-6C2E-5EA8-CEF3-C960A64442EC" name="Smer_NivoStudija_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>7C2059D5-B374-9BAF-21C8-E1D00702C3F1</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>NivoStudija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57CDA62F-07DC-0D48-A53D-3BB46572E1CE</referredTableID>
+<keyObject>595BBB36-F701-E6CB-1DE4-FD67DFA622B1</keyObject>
+<referredKeyID>595BBB36-F701-E6CB-1DE4-FD67DFA622B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nivo_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

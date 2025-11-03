@@ -4,7 +4,7 @@
 <createdTime>2025-10-23 12:04:28 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-23 12:04:38 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-23 12:04:38 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2025-10-23 12:04:39 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <createdTime>2025-10-23 12:04:39 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <generatorID>7B0D90B6-9926-0476-5684-6D7B8A622740</generatorID>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <referedAttribute>812E1F84-EABD-B09A-5957-39AF8533C1DB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +84,7 @@
 <generatorID>7B0D90B6-9926-0476-5684-6D7B8A622740</generatorID>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <referedAttribute>FB14BAEA-21B3-E9DB-5278-981BDFB1451E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,7 +98,7 @@
 <generatorID>7B0D90B6-9926-0476-5684-6D7B8A622740</generatorID>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <referedAttribute>A955A274-16E4-3949-C0F9-D500E37C601E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -111,7 +111,7 @@
 <createdTime>2025-10-23 12:06:02 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,7 +124,7 @@
 <createdTime>2025-10-23 12:06:02 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -138,13 +138,27 @@
 <createdTime>2025-10-23 12:06:02 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_id1" id="0DFC5118-64EB-5025-5BC0-E352FCCD5A56">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:28:46 UTC</createdTime>
+<generatorID>D7C99853-1521-E9A7-FEE9-ADC58C578311</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<referedAttribute>5FDE263D-09ED-9381-C20B-383256928D6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -153,7 +167,7 @@
 <createdTime>2025-10-23 12:04:45 UTC</createdTime>
 <ownerDesignName>domaci1_model</ownerDesignName>
 <engineerTo>
-<item key="8A02C9C2-408D-3DE5-DE29-39C5D4E42755" value="true"/>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

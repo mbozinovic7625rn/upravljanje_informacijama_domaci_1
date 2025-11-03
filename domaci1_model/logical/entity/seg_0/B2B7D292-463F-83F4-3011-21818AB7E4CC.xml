@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2B7D292-463F-83F4-3011-21818AB7E4CC" name="StatusStudenta">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:45:33 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="status_id" id="6BED7289-89C0-BEE1-AE38-A4882D0D3F59">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:45:39 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="F04A9253-3A19-CF26-8741-D661EDB1B11F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:45:46 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="95F9012D-96B9-0E21-9DC5-42A8D6A9E755">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:45:56 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="410DCDE6-9819-0240-CCF0-8CF99F6C276B" name="StatusStudenta PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-23 14:45:45 UTC</createdTime>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<engineerTo>
+<item key="715CC8E2-416F-6EE8-90B6-5E2E41CF43F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BED7289-89C0-BEE1-AE38-A4882D0D3F59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

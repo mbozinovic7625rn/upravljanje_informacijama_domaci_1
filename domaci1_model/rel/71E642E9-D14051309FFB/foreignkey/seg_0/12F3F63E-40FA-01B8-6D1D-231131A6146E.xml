@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12F3F63E-40FA-01B8-6D1D-231131A6146E" containerWithKeyObject="4766A0C4-8375-ACEE-B764-771469966B2C" localFKIndex="B4AB785C-0F4F-7740-7509-934F0B46FDD7" name="ProfesorIspit_Ispit_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>8FB97BE5-0FE6-3BC4-2E2C-5A10FF111B15</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<referredTableLongName>Ispit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4EC3DA8-31E9-2C4D-22F6-BB1F02907C39</referredTableID>
+<keyObject>81C2E5A1-9E41-0C61-D144-AC41E6609607</keyObject>
+<referredKeyID>81C2E5A1-9E41-0C61-D144-AC41E6609607</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ispit_ID1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

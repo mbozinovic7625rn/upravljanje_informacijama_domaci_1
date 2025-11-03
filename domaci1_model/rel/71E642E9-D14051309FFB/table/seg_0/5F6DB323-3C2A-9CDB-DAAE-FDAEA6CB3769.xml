@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F6DB323-3C2A-9CDB-DAAE-FDAEA6CB3769" name="Pozajmica">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>DBEF84FE-7E5B-C23D-8ECF-A26D83775028</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pozajmica_id" id="4BFE46B9-DD3D-8C47-8262-F0A36AE0FCC3">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>FA96C7DE-950A-4E76-E378-C663AC0F2160</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="biblioteka_id" id="F638E9D2-190E-27DD-61AE-BCD91E6BFEC2">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>23B59190-7A32-22E8-60C3-3F411B4AE72C</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indeks" id="4D98BA64-B335-E7B0-43A2-92AEF640A962">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>C5CA8A9F-8648-4023-B441-3D060BF171F9</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_pozajmice" id="4C03269B-34EE-D551-E46E-2AA15B8A569C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>011C25E0-B6D4-BBB1-4E63-7C1B997B7D0C</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_student_id" id="108DE798-A4F5-4F22-3A9A-83D62619E6FB">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>DF5EFFE9-6135-8659-235B-DA6EF9CEB694</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1305EBCD-887D-106D-4445-5BA233977695" referredColumn="CDB60877-881C-D4B3-244E-0AF8D427E0AF"/>
+</associations>
+</Column>
+<Column name="Student_indeks" id="C337BF24-E635-D170-80F5-08DB020CB84F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>0137A9E9-53C9-0F9B-E8ED-CC9BF431B175</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1305EBCD-887D-106D-4445-5BA233977695" referredColumn="1A0A5DB3-41E3-B59F-9414-FE35EE3A2A3E"/>
+</associations>
+</Column>
+<Column name="Student_jmbg" id="1CC78ECE-B239-5AFA-5575-75F9EF13BDFF">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>0EC04F69-996F-F393-1FF7-A9EE56B8889D</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1305EBCD-887D-106D-4445-5BA233977695" referredColumn="261A9F3E-D1FB-438C-642F-4AE3128FF676"/>
+</associations>
+</Column>
+<Column name="Biblioteka_isbn" id="BAC2E70C-5142-9341-B216-FD7B14C4B1FC">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>7465E851-6557-1F0C-51C2-FB40F6370807</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A83B06A7-E552-AD54-A5BC-5943340EA20E" referredColumn="E11B0C0F-1072-2107-F514-229E7BA557F4"/>
+</associations>
+</Column>
+<Column name="Biblioteka_biblioteka_id" id="A46F70D5-F6C4-9B55-CAB6-8D0078B60328">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>3B78E125-BE31-09B7-63CE-9D480675C34F</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A83B06A7-E552-AD54-A5BC-5943340EA20E" referredColumn="3E47E97C-8E0E-353B-7A84-16A90689F0EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5794A3C-5BEA-AAA4-F6DB-F9557DF50F45" name="Pozajmica_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>AFCC77EB-87A0-F10D-0823-428EA73D3114</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFE46B9-DD3D-8C47-8262-F0A36AE0FCC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4160328D-79AC-C431-6AE9-BC126143A6E1" name="Pozajmica_Biblioteka_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>FFB6BD35-5837-FFA4-A151-6542C0BF983E</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC2E70C-5142-9341-B216-FD7B14C4B1FC"/>
+<colUsage columnID="A46F70D5-F6C4-9B55-CAB6-8D0078B60328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A152C2DF-D45A-7412-C9AE-B63105FF85CD" name="Pozajmica_Student_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-31 15:29:48 UTC</createdTime>
+<generatorID>AC25B7F8-7CBA-E12D-AAFE-86281D1E4BA4</generatorID>
+<ownerDesignName>domaci1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="108DE798-A4F5-4F22-3A9A-83D62619E6FB"/>
+<colUsage columnID="C337BF24-E635-D170-80F5-08DB020CB84F"/>
+<colUsage columnID="1CC78ECE-B239-5AFA-5575-75F9EF13BDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
